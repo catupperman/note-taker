@@ -14,7 +14,7 @@
 
 The application’s front end was already created. It's was my job to build the back end, connect the two, and then deploy the entire application to Heroku.
 
->![Tutorial](./images/README.gif)
+>
 ## Installation
 > I pulled the [npm](https://www.npmjs.com/) package, aka ```package.json```, entered ```npm i```.
 ## Methods
