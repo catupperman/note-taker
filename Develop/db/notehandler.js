@@ -28,11 +28,12 @@ class NoteHandler{
     }
 
 
-    async createNotes(){
-      let noteObj = {title: note.title, text: note.text, id: uuidv4()}
-       const noteArr = await this.readnotes();
-       await noteObj.json();
-       return noteArr
+    createNotes(){
+        let noteObj = {title: this.readnotes().title, text: this.readnotes().text, id: uuidv4()}
+        const noteArr = this.readnotes()
+      console.log("note Obj")
+      console.log(noteObj)
+       return write(noteArr);
     } 
 }
 
