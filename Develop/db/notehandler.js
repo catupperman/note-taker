@@ -27,13 +27,13 @@ class NoteHandler{
         return writeFile("db/db.json", JSON.stringify(note))
     }
 
-    createNotes(note){
-        let noteObj = {title: note.title, text: note.text, id: uuidv4()}
-        return this.readnotes().then(notesArr => {
-            console.group(noteObj, notesArr)
-        })
-    }
-    
+
+    async createNotes(){
+      let noteObj = {title: note.title, text: note.text, id: uuidv4()}
+       const noteArr = await this.readnotes();
+       await noteObj.json();
+       return noteArr
+    } 
 }
 
 
