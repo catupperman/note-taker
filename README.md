@@ -12,7 +12,7 @@
 ## Description
 > This project was to modify starter code and create an application called Note Taker that can be used to write and save notes. This application will use an ```Express.js```  back end and will save and retrieve note data from a JSON file.
 
-The application’s front end was already created. It's was my job to build the back end, connect the two, and then deploy the entire application to Heroku.  I was able to connect the front end to the back end havd the db.json file read on the html page, however the saved note postion of the assignment proved difficult and after 30+ hours of failed trial and error.  Two different tutoring sessions, with no relief of why it would not result in anything other than undefined.  I have decided to turn this in, and attempt to ask my TAs or Teacher for assistance after the due date to maybe get a better understanding of why this did not work, since my tutor did not know, nor did my class mates after having them take a look. 
+The application’s front end was already created. It's was my job to build the back end, connect the two, and then deploy the entire application to Heroku.  I was able to connect the front end to the back end havd the db.json file read on the html page, however the saved note postion of the assignment proved difficult and after 30+ hours of failed trial and error.  After lots of learning and trial and error, I figured out I was missing my middleware.   
 
 ![welcome](Develop/images/welcomepage.jpeg)
 ![notes-screen](Develop/images/notes-screen.jpeg)

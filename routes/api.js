@@ -7,6 +7,7 @@ router.get('/notes', function (req, res){
 });
 //post the note from new notes saved into the db.json
 router.post('/notes',(req, res) => {
+    console.log(req.body, "req body")
     noteHandler.createNotes(req.body).then(notesArr => res.json(notesArr)).catch(err => res.json(err))
 })
 
