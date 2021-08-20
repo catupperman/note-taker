@@ -14,9 +14,8 @@
 
 The application’s front end was already created. It's was my job to build the back end, connect the two, and then deploy the entire application to Heroku.  I was able to connect the front end to the back end havd the db.json file read on the html page, however the saved note postion of the assignment proved difficult and after 30+ hours of failed trial and error.  After lots of learning and trial and error, I figured out I was missing my middleware.   
 
-![welcome](Develop/images/welcomepage.jpeg)
-![notes-screen](Develop/images/notes-screen.jpeg)
-[Heroku-Page]()
+![welcome](images/notetaker.gif)
+Check out the Deployed page here: [Heroku-Page](https://cats0-note-taker.herokuapp.com/notes)
 
 >
 ## Installation
@@ -24,13 +23,16 @@ The application’s front end was already created. It's was my job to build the 
 ## Methods
 > * node 
 > * ```fs.writeFile```  promises 
-> * uuid package 
+> * ```uuid``` package 
 > * [Shields IO](https://shields.io/category/license) 
 > * [Open Source Initiative](https://opensource.org/licenses/BSD-3-Clause) 
+> * [Heroku](https://dashboard.heroku.com/)
+> * [Insomnia](https://insomnia.rest/)
 ## Contributions
->
+> I would like to thank my TAs for help on this assignment, and my tutor.  This was a lot of work, and there were lots of frustrations, perserverance was in the end my friend. 
 ## Testing
-> 
+> running node server.js 
+> insomnia testing for both the GET and POST
 ## License
 ![BSD](https://img.shields.io/badge/License-GPL-blue)
 Copyright (C) 2021 catupperman
